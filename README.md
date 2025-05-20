@@ -2,7 +2,7 @@ DevOps Project Setup with Terraform, MicroK8s, and ArgoCD
 # ecommerce-app
 Cross-platform .NET sample microservices and container based application that runs on Linux Windows and macOS. Powered by .NET 7, Docker Containers and Azure Kubernetes Services.
 
-Let me provide you with a complete, realistic implementation plan starting from your Kali Linux WSL machine with MicroK8s
+Let me provide you with a complete, realistic implementation plan starting from Kali Linux WSL machine with MicroK8s
 
 # Specification 
 
