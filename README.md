@@ -9,4 +9,3 @@ We have upgraded K8s scripts to work on the latest stable version of Docker Desk
 
 # Archetecture Realease-K1
 
-![image](https://github.com/user-attachments/assets/3baf8601-0fb4-4e06-9fb2-dc5bcd2fd6b7)
