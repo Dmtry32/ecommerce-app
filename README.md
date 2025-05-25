@@ -1,18 +1,31 @@
 DevOps Project Setup with Terraform, MicroK8s, and ArgoCD
-# ecommerce-app
-Cross-platform .NET sample microservices and container based application that runs on Linux Windows and macOS. Powered by .NET 7, Docker Containers and Azure Kubernetes Services.
-
-Let me provide you with a complete, realistic implementation plan starting from Kali Linux WSL machine with MicroK8s
-
-# Specification 
-
-We have upgraded K8s scripts to work on the latest stable version of Docker Desktop and Kubernetes. Current dev branch has been tested with the following specifications :
-
-![image](https://github.com/user-attachments/assets/9cc917de-c7aa-4c6d-8198-3f34c6867fb8)
-
-# Archetecture Realease-K1
+# GitOps project
+MicroK8s & ArgoCD Deployment on Kali WSL
 
 
 
+🔧 **Project Structure**
+![image](https://github.com/user-attachments/assets/8d3a8d8e-cbe5-401a-a768-a7da872bff35)
 
+Prerequisites :
+- Kali Linux WSL2
 
+- Terraform installed (sudo apt install terraform)
+
+- Docker enabled (sudo systemctl enable docker)
+
+**1. Infrastructure Deployment**
+
+> cd terraform
+> terraform init
+> terraform apply -auto-approve
+
+**2. Verify Installation**
+# Check MicroK8s status
+> microk8s status
+
+# Verify ArgoCD pods
+> kubectl get pods -n argocd
+
+**3. Access ArgoCD**
+> kubectl port-forward svc/argocd-server -n argocd 8080:443
