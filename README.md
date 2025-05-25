@@ -5,7 +5,16 @@ MicroK8s & ArgoCD Deployment on Kali WSL
 
 
 🔧 **Project Structure**
+
+
+
+
+
+
 ![image](https://github.com/user-attachments/assets/8d3a8d8e-cbe5-401a-a768-a7da872bff35)
+
+
+
 
 Prerequisites :
 - Kali Linux WSL2
